@@ -31,6 +31,24 @@ sudo cp biblia /usr/local/bin/
 > clica em **Mais informações** → **Executar assim mesmo**.
 > Se preferir, compile você mesmo seguindo as instruções abaixo.
 ---
+## Verificação de integridade
+
+Após baixar, verifique o hash SHA256 para garantir que o arquivo não foi corrompido:
+
+| Arquivo | SHA256 |
+|---------|--------|
+| `biblia` (Linux) | `a954b85c62bb6abcb5ab05f194ef5625171cd3f4d917c905949f90648651601e` |
+| `biblia.exe` (Windows) | `a1a6bc188eb9fab52a50b7940cb45d6c7e4fc40d061cce6fd9f7064cade2b600` |
+
+**Linux:**
+```bash
+sha256sum biblia
+```
+
+**Windows (PowerShell):**
+```powershell
+Get-FileHash biblia.exe | Select-Object Hash
+```
 
 ## Demo
 
