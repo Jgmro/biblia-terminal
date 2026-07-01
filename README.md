@@ -16,6 +16,20 @@ Inspirado no [kjv](https://github.com/layeh/kjv) — filosofia Unix pura.
 
 </div>
 
+## Download direto
+
+Não quer compilar? Baixe o binário na página de [Releases](https://github.com/Jgmro/biblia-terminal/releases).
+
+- **Windows:** baixa `biblia.exe` e roda direto no terminal
+- **Linux:** baixa `biblia`, dá permissão e instala:
+
+```bash
+chmod +x biblia
+sudo cp biblia /usr/local/bin/
+```
+
+Você tem um Linux disponível para compilar o binário Linux?
+
 ---
 
 ## Demo
