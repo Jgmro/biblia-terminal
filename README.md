@@ -22,12 +22,14 @@ Não quer compilar? Baixe o binário na página de [Releases](https://github.com
 
 - **Windows:** baixa `biblia.exe` e roda direto no terminal
 - **Linux:** baixa `biblia`, dá permissão e instala:
-
 ```bash
 chmod +x biblia
 sudo cp biblia /usr/local/bin/
 ```
-
+> **Windows:** o Windows Defender pode bloquear o binário por não ter assinatura digital.
+> Isso é normal para executáveis open source. Para executar:
+> clica em **Mais informações** → **Executar assim mesmo**.
+> Se preferir, compile você mesmo seguindo as instruções abaixo.
 ---
 
 ## Demo
