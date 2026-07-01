@@ -1,12 +1,3 @@
-<div align="center">
-
-```
-╔═══════════════════════════╗
-║    ✝  B Í B L I A  ✝     ║
-║      IC  ·  XC  ·  NIKA  ║
-╚═══════════════════════════╝
-```
-
 # Bíblia de Jerusalém — Terminal
 
 **Bíblia de Jerusalém completa em português, direto no terminal.**  
