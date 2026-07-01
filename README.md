@@ -28,8 +28,6 @@ chmod +x biblia
 sudo cp biblia /usr/local/bin/
 ```
 
-Você tem um Linux disponível para compilar o binário Linux?
-
 ---
 
 ## Demo
