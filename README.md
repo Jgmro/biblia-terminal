@@ -120,7 +120,7 @@ biblia fav              # lista todos
 
 ```bash
 # 1. Clona o repositório
-git clone https://github.com/seuusuario/biblia
+git clone https://github.com/Jgmro/biblia-terminal
 cd biblia
 
 # 2. Compila
