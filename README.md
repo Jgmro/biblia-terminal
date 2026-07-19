@@ -1,12 +1,3 @@
-<div align="center">
-
-```
-╔═══════════════════════════╗
-║    ✝  B Í B L I A  ✝     ║
-║      IC  ·  XC  ·  NIKA  ║
-╚═══════════════════════════╝
-```
-
 # Bíblia de Jerusalém — Terminal
 
 **Bíblia de Jerusalém completa em português, direto no terminal.**  
@@ -16,7 +7,39 @@ Inspirado no [kjv](https://github.com/layeh/kjv) — filosofia Unix pura.
 
 </div>
 
+## Download direto
+
+Não quer compilar? Baixe o binário na página de [Releases](https://github.com/Jgmro/biblia-terminal/releases).
+
+- **Windows:** baixa `biblia.exe` e roda direto no terminal
+- **Linux:** baixa `biblia`, dá permissão e instala:
+```bash
+chmod +x biblia
+sudo cp biblia /usr/local/bin/
+```
+> **Windows:** o Windows Defender pode bloquear o binário por não ter assinatura digital.
+> Isso é normal para executáveis open source. Para executar:
+> clica em **Mais informações** → **Executar assim mesmo**.
+> Se preferir, compile você mesmo seguindo as instruções abaixo.
 ---
+## Verificação de integridade
+
+Após baixar, verifique o hash SHA256 para garantir que o arquivo não foi corrompido:
+
+| Arquivo | SHA256 |
+|---------|--------|
+| `biblia` (Linux) | `a954b85c62bb6abcb5ab05f194ef5625171cd3f4d917c905949f90648651601e` |
+| `biblia.exe` (Windows) | `a1a6bc188eb9fab52a50b7940cb45d6c7e4fc40d061cce6fd9f7064cade2b600` |
+
+**Linux:**
+```bash
+sha256sum biblia
+```
+
+**Windows (PowerShell):**
+```powershell
+Get-FileHash biblia.exe | Select-Object Hash
+```
 
 ## Demo
 
@@ -120,7 +143,7 @@ biblia fav              # lista todos
 
 ```bash
 # 1. Clona o repositório
-git clone https://github.com/seuusuario/biblia
+git clone https://github.com/Jgmro/biblia-terminal
 cd biblia
 
 # 2. Compila
